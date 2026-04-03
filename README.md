@@ -1,6 +1,6 @@
 # Spatial Relationship Mapper QGIS Plugin
 
-![Plugin Icon](https://github.com/yourusername/spatial-relationship-mapper/blob/main/icon.png?raw=true)
+![Plugin Icon](https://github.com/AnustupJana/SpatialRelationshipMapper-plugin/blob/main/icon.png?raw=true)
 
 ## Overview
 The **Spatial Relationship Mapper** plugin for QGIS allows users to create spatial relationships between two polygon layers with ease. It identifies intersecting features and links their attribute IDs in both layers.
@@ -78,7 +78,7 @@ Building IDs: `B12 | B15 | B18`
 ---
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/AnustupJana/SelectFeaturesbyBoundary-plugin/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/AnustupJana/SpatialRelationshipMapper-plugin/blob/main/LICENSE) file for details.
 
 ---
 
