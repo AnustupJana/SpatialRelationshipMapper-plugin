@@ -1,0 +1,10 @@
+[general]
+name=Spatial Relationship Mapper
+description=Creates spatial relationships between two polygon layers and links their attributes
+version=1.0
+qgisMinimumVersion=3.16
+author=Anustup Jana
+email=anustupjana21@email.com
+category=Vector
+Tags=python, spatial, relationship, gis, polygon, analysis, attribute, vector
+icon=icon.png
