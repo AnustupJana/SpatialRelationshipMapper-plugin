@@ -2,9 +2,33 @@
 name=Spatial Relationship Mapper
 description=Creates spatial relationships between two polygon layers and links their attributes
 version=1.0
-qgisMinimumVersion=3.16
+qgisMinimumVersion=3.0
 author=Anustup Jana
 email=anustupjana21@email.com
-category=Vector
+
+about=Spatial Relationship Mapper is a QGIS processing plugin designed to establish and analyze spatial relationships between two polygon layers. The tool allows users to select any two input layers along with their respective unique ID fields, and automatically detects intersecting features using an optimized spatial indexing approach. The plugin generates two output layers, where each feature contains a new attribute field ("related_ids") that stores the IDs of intersecting features from the opposite layer. This enables efficient mapping of one-to-one, one-to-many, or many-to-many spatial relationships. It is particularly useful in workflows such as parcel-to-building mapping, land use analysis, asset management, zoning validation, and urban planning. The plugin supports both temporary and permanent outputs, integrates seamlessly with the QGIS Processing Toolbox, and is designed for performance, accuracy, and ease of use. This plugin is ideal for GIS analysts, planners, and developers who need a quick and reliable way to generate spatial relationships between polygon datasets.
+
+tracker=https://github.com/AnustupJana/SpatialRelationshipMapper-plugin/issues
+repository=https://github.com/AnustupJana/SpatialRelationshipMapper-plugin
+# End of mandatory metadata
+
+hasProcessingProvider=no
+
 Tags=python, spatial, relationship, gis, polygon, analysis, attribute, vector
+homepage=https://github.com/AnustupJana/SpatialRelationshipMapper-plugin/#readme
+category=Vector
 icon=icon.png
+
+experimental=False
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=Vector
+
+# If the plugin can run on QGIS Server.
+server=False
